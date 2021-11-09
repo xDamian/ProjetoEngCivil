@@ -15,10 +15,9 @@ main()
     printf("\n3 - soon..."); 
     printf("\n4 - soon...");
     printf("\n5 - Cacetada"); 
-    scanf("%d", opcao);
+    scanf("%d", &opcao);
 
-    int num;
-                switch (num)// Seleção do Menu
+                switch (opcao)// Seleção do Menu
                  {
                         case 1:
                                printf("OBRIGADO\n\n");
@@ -44,4 +43,7 @@ main()
                         default:
                                 printf("ok\n");
                                 } 
-}
+                system("PAUSE");
+                 return(0);
+                 }
+                 
